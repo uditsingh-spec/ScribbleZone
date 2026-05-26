@@ -57,7 +57,7 @@ const Home: React.FC<Props> = ({ initialRoomCode }) => {
 
   return (
     <div className="home-container page-bg home-bg">
-      <h1 className="title home-title animate-float">🎨 SKRIBBL CLONE</h1>
+      <h1 className="title home-title animate-float">🎨 SCRIBBLEZONE</h1>
       <p className="subtitle home-subtitle">Draw. Guess. Win!</p>
 
       <div className="card home-card animate-bounce-in">

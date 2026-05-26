@@ -9,7 +9,7 @@ if (!fs.existsSync(dbDir)) {
   fs.mkdirSync(dbDir, { recursive: true });
 }
 
-const DB_PATH = path.join(dbDir, "skribbl.db");
+const DB_PATH = path.join(dbDir, "scribblezone.db");
 
 const db = new Database(DB_PATH);
 

@@ -1,11 +1,11 @@
 <div align="center">
 
-# 🎨 Skribbl Clone
+# 🎨 ScribbleZone
 
 ### Draw. Guess. Win! — Real-time multiplayer Pictionary game
 
-[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Play_Now!-00E5A0?style=for-the-badge&logoColor=white)](https://skribbl-clone-eight.vercel.app/)
-[![GitHub](https://img.shields.io/badge/GitHub-Skribbl--Clone-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/Kunal-imsec/Skribbl-Clone)
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Play_Now!-00E5A0?style=for-the-badge&logoColor=white)](https://scribble-zone.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-ScribbleZone-FFD700?style=for-the-badge&logo=github&logoColor=black)](https://github.com/uditsingh-spec/ScribbleZone)
 
 ![Made with Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
 ![Made with React](https://img.shields.io/badge/React_18-61DAFB?style=flat-square&logo=react&logoColor=black)
@@ -154,8 +154,8 @@ LOBBY → WORD_SELECTION → DRAWING → ROUND_END → (loop or GAME_OVER)
 ### Clone & Install
 
 ```bash
-git clone https://github.com/Kunal-imsec/Skribbl-Clone.git
-cd Skribbl-Clone
+git clone https://github.com/uditsingh-spec/ScribbleZone.git
+cd ScribbleZone
 ```
 
 ### Start Backend
@@ -193,8 +193,8 @@ VITE_BACKEND_URL=http://localhost:4000
 
 | Service | Platform | URL |
 |---|---|---|
-| Frontend | Vercel | https://skribbl-clone-eight.vercel.app/ |
-| Backend | Render | https://skribbl-clone-gc2h.onrender.com |
+| Frontend | Vercel | https://scribble-zone.vercel.app/ |
+| Backend | Render | https://scribblezone-backend.onrender.com |
 
 > ⚡ Backend stays alive via UptimeRobot pinging `/ping` every 5 minutes
 
@@ -203,7 +203,7 @@ VITE_BACKEND_URL=http://localhost:4000
 ## 📁 Folder Structure
 
 ```
-skribbl-clone/
+ScribbleZone /
 ├── client/                        # React + Vite + TypeScript
 │   └── src/
 │       ├── pages/
@@ -246,17 +246,11 @@ Server is single source of truth. `Game` class owns rounds, turn order, timer (`
 **How guessing works:**
 `guess.toLowerCase().trim() === currentWord.toLowerCase().trim()` — simple normalize + compare. Correct → points calculated by `Math.floor(100 * (timeRemaining / drawTime))`, minimum 10 pts.
 
-**Why Render over Railway:**
-Render has stable persistent WebSocket support on free tier. Railway had connection instability during testing.
-
 ---
 
 <div align="center">
 
-Made with 🎨 by **Kunal Agrawal**
+Made with 🎨 by **Udit Singh**
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-kunalragdev.netlify.app-FFD700?style=flat-square)](https://kunalragdev.netlify.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Kunal_Agrawal-0077B5?style=flat-square&logo=linkedin)](https://linkedin.com/in/kunal-agrawal-b3637826a)
-[![GitHub](https://img.shields.io/badge/GitHub-Kunal--imsec-181717?style=flat-square&logo=github)](https://github.com/Kunal-imsec)
-
+[![GitHub](https://img.shields.io/badge/GitHub-uditsingh--spec-181717?style=flat-square&logo=github)](https://github.com/uditsingh-spec)
 </div>

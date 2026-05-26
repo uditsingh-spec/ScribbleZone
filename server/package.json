@@ -1,7 +1,7 @@
 {
-  "name": "skribbl-clone-server",
+  "name": "scribblezone-server",
   "version": "1.0.0",
-  "description": "Skribbl.io clone server",
+  "description": "ScribbleZone server",
   "main": "index.js",
   "scripts": {
     "dev": "node --watch index.js",
