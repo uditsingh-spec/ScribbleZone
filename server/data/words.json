@@ -1,0 +1,8 @@
+{
+  "animals": ["elephant", "giraffe", "penguin", "dolphin", "kangaroo", "cheetah", "octopus", "flamingo", "gorilla", "crocodile"],
+  "objects": ["umbrella", "scissors", "lantern", "compass", "telescope", "backpack", "hammock", "hourglass", "microscope", "typewriter"],
+  "food": ["spaghetti", "avocado", "pretzel", "sushi", "waffle", "burrito", "cheesecake", "pineapple", "dumpling", "croissant"],
+  "actions": ["swimming", "juggling", "climbing", "whispering", "skipping", "painting", "sneezing", "dancing", "fishing", "meditating"],
+  "nature": ["volcano", "glacier", "waterfall", "thunderstorm", "rainbow", "canyon", "tsunami", "avalanche", "tornado", "coral reef"],
+  "vehicles": ["helicopter", "submarine", "skateboard", "ambulance", "sailboat", "motorcycle", "bulldozer", "spaceship", "gondola", "hovercraft"]
+}
